@@ -1,0 +1,39 @@
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-container .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper-container .swiper-slide .text {
+  position: relative;
+  color: black;
+  text-align: center;
+  width: 100%;
+  padding: 0 2em;
+}
+
+.swiper-container .swiper-slide .text h3 {
+  font-size: 20px;
+}
+
+.swiper-container .swiper-slide img {
+  width: 100%;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  color: black;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  color: black;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 20px;
+}
+/*# sourceMappingURL=swiper.css.map */

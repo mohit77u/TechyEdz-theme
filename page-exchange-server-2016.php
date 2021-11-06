@@ -1,0 +1,266 @@
+<?php get_header(); ?>
+
+<section class="single-course">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="course-details">
+                    <h2>Microsoft Exchange Server 2016 / 2019 </h2>
+                    <div class="ratings">
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>4075 Ratings (4.1)</p>
+                    </div>
+                    <p class="para">This course teaches IT professionals how to administer and support Exchange Server. The course covers how install and configure Exchange Server. It also covers how to manage mail recipients and public folders, including how to perform bulk operations by using Exchange Management Shell. In addition, the course covers how to manage client connectivity, message transport and hygiene, and highly available Exchange Server deployments. It also covers how to implement disaster recovery solutions. Finally, the course covers how to maintain and monitor an Exchange Server deployment and how to administer Exchange Online in a Office 365 deployment.</p>
+                    <button class="course-btn2" data-toggle="modal" data-target="#exampleModalCenter">Free demo classes</button>
+                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/exchange-server-2016.pdf" download><button class="course-btn1"><i class="fa fa-file-pdf-o"></i>Download PDF</a></button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/courses/exchange-server-2016.png" alt="exchange-server-2016">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="inner sticky-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="">
+                    <a class="inner-nav" href="#about">About the course</a>
+                    <a class="inner-nav"  href="#course-content">Course content</a>
+                    <a class="inner-nav" href="#prerequisites">Course Prerequisites</a>
+                    <a class="inner-nav" href="#who">Who can attend?</a>
+                    <a class="inner-nav" href="#number">Number of hours</a>
+                    <a class="inner-nav" href="#certification">Certification</a>
+                    <a class="inner-nav" href="#keyfeatures">Keyfeatures</a>
+                    <a class="inner-nav" href="#faqs">FAQs</a>
+                    <button class="enrollbtn" data-toggle="modal" data-target="#exampleModalCenter">Enroll now</button>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="request" >
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/request.jpg" alt="request">
+        <div class="batch"  id="about">
+          <h3>Can’t find a batch you were looking for?</h3>
+          <button class="requestbtn" data-toggle="modal" data-target="#exampleModalCenter">Request a Batch</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+    <section id="about" class="course-content" data-spy>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content">
+                        <div class="topic-content">
+                            <h3>About the course</h3>
+                            <p>This course teaches IT professionals how to administer and support Exchange Server. The course covers how install and configure Exchange Server. It also covers how to manage mail recipients and public folders, including how to perform bulk operations by using Exchange Management Shell. In addition, the course covers how to manage client connectivity, message transport and hygiene, and highly available Exchange Server deployments. It also covers how to implement disaster recovery solutions. Finally, the course covers how to maintain and monitor an Exchange Server deployment and how to administer Exchange Online in a Office 365 deployment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="course-content" class="course-content" data-spy>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content">
+                        <h3>Course Contents</h3>
+                        <div class="topic-content">
+                            <h6>Introduction to Exchange Server Environment </h6>
+                            <ul>
+                                <li>Understanding Messaging System </li>
+                                <li>Understanding on Exchange Server versions </li>
+                                <li>Exchange server 2016 Editions and Comparison </li>
+                                <li>Exchange server 2016 roles </li>
+                            </ul>
+                        </div>
+                        <div class="topic-content">
+                            <h6>Configuring and Managing Client Access </h6>
+                            <ul>
+                                <li>Understanding the Different Client Access Protocol </li>
+                                <li>Understand how Client Access works </li>
+                                <li>Configuring outlook with RPC/MAPI,SMTP with POP /IMAP </li>
+                                <li>Understanding Autodiscover Service </li>
+                                <li>Configuring Outlook with AutoDiscover </li>
+                                <li>Configuring Rules and Alerts in Client </li>
+                                <li>Sharing Inbox,calendar,Mailbox </li>
+                                <li>Understand the MailTip Configuration </li>
+                                <li>Understand the Outlook Anywhere </li>
+                            </ul>
+                        </div>
+                        <h5 class="see-text">To see the full course content <a href="<?php echo get_template_directory_uri(); ?>/pdf/exchange-server-2016.pdf" download>Download now</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="like">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-8">
+                <div class="like-content">
+                    <h2>Like the Course topics? Enroll Now</h2>
+                    <h5>Structure your learning and get a certificate to prove it.</h5>
+                    <?php echo do_shortcode( '[contact-form-7 id="31" title="Like enroll now"]' ); ?>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/courses/exchange-server-2016.png" alt="exchange-server-2016">
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="prerequisites" class="pwnckf" data-spy>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="about">
+                        <h3>Course Prerequisites</h3>
+                        <div class="topic-content">
+                            <p>In addition to their professional experience, students who attend this training should already have the following technical knowledge: </p>
+                            <ul>
+                                <li>Minimum of two years of experience administering Windows Server</li>
+                                <li>Minimum of two years of experience working with Active Directory Domain Services (AD DS)</li>
+                                <li>Minimum of two years of experience working with name resolution, including Domain Name System (DNS)</li>
+                                <li>Understanding of TCP/IP and networking concepts</li>
+                                <li>Understanding of security concepts such as authentication and authorization</li>
+                                <li>Understanding of Simple Mail Transfer Protocol (SMTP)</li>
+                                <li>Working knowledge of public key infrastructure (PKI) technologies, including Active Directory Certificate Services (AD CS)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="who" class="pwnckf" data-spy>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="topic-content">
+                        <h3>Who should attend?</h3>
+                        <ul>
+                            <li>This course is intended for IT professionals who are experienced messaging administrators, messaging architects, or consultants. This course is designed for professionals in an enterprise environment who are responsible for designing and deploying Exchange Server 2016 solutions, including environments that contain previous versions of Exchange Server or Exchange Online. Students are expected to have experience with Exchange Server 2016 or previous versions of Exchange Server</li>
+                            <li>This course is also intended as preparation material for IT professionals who are looking to take the 70-345: Designing and Deploying Microsoft Exchange Server </li>
+                            <li>2016 exam as part of the requirement for the MCSE: Microsoft Exchange Server 2016 certification</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="number" class="pwnckf" data-spy>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="topic-content">
+                        <h3>Number of Hours: 40hrs</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certification" class="certification" data-spy>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="certificate">
+                    <h3>Certification</h3>
+                    <p>70-345 </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="keyfeatures" class="pwnckf" data-spy>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="topic-content">
+                        <h3>Keyfeatures</h3>
+                        <ul>
+                            <li>One to One Training </li>
+                            <li>Online Training </li>
+                            <li>Fastrack & Normal Track </li>
+                            <li>Resume Modification </li>
+                            <li>Mock Interviews </li>
+                            <li>Video Tutorials  </li>
+                            <li>Materials</li>
+                            <li>Real Time Projects</li>
+                            <li>Virtual Live Experience</li>
+                            <li>Preparing for Certification</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faqs" data-spy>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="accordion" class="accordion">
+                        <h3>FAQs</h3>
+                        <div class="card mb-0">
+                            <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
+                                <a class="card-title">Can I just enroll in a single course? I'm not interested in the entire Specialization?</a>
+                            </div>
+                            <div id="collapseOne" class="card-body collapse show" data-parent="#accordion" >
+                                <p>TechyEdz in BTM Layout 2nd Stage offers long-term courses, short-term courses and certification courses. Inclusive of comprehensive learning, the long-term program feature subjects such as Web- Development, Digital Marketing, Computer Application and Programming, Information Technology and Data Science. Some of the short-term courses cover topics like Cloud, RPA, Big Data, Microsoft, VMware & Oracle. Walk into this center all through the week between 07:00am  –  09:00pm. Pay in Cash, Debit Cards, Credit Card and Online Payment.</p>
+                            </div>
+                            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                <a class="card-title">What is the refund policy?</a>
+                            </div>
+                            <div id="collapseTwo" class="card-body collapse" data-parent="#accordion" >
+                                <p>TechyEdz Software Specialization in developing customized suite of HR consulting solutions based on the operational models of our clients with a special focus on small & Large Enterprises. We bring practical, results driven HR Practice to our clients business that would help them retain people, Improve business productivity and performance of employee.</p>
+                            </div>
+                            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                <a class="card-title">What background knowledge is necessary?</a>
+                            </div>
+                            <div id="collapseThree" class="card-body collapse" data-parent="#accordion" >
+                                <p>TechyEdz Software Specialization in developing customized suite of HR consulting solutions based on the operational models of our clients with a special focus on small & Large Enterprises. We bring practical, results driven HR Practice to our clients business that would help them retain people, Improve business productivity and performance of employee.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<section class="related-trending">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Related Category Courses</h3>
+                <div class="relatedbtn">
+                   <button class="rbtn"><a href="/advance-excel-2019">Advance Excel 2019</a></button>
+                   <button class="rbtn"><a href="/android-app-developer">Android App Developer </a></button>
+                   <button class="rbtn"><a href="/angular-js">Angular JS</a></button>
+                   <button class="rbtn"><a href="/ansible">Ansible</a></button>
+                   <button class="rbtn"><a href="/apache-cassandra">Apache Cassandra</a></button>
+                   <button class="rbtn"><a href="/apache-spark-and-scala">Apache Spark and Scala</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php get_footer(); ?>
